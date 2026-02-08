@@ -13,6 +13,12 @@ blog.inlanefreight.local
 EOF
 ```
 
+1) Завантажити скріпт
+
+```
+curl -L -o add_hosts.sh https://raw.githubusercontent.com/GolotaRoman91/addhosts/master/add_hosts.sh
+```
+
 2) Поклади скрипт у ~/.local/bin і назви його addhosts
 ```
 mkdir -p ~/.local/bin
