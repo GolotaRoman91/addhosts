@@ -30,7 +30,7 @@ chmod +x ~/.local/bin/addhosts
 ```
 ls -l ~/.local/bin/addhosts
 ```
-2) Додай ~/.local/bin у PATH (якщо ще не додано)
+3) Додай ~/.local/bin у PATH (якщо ще не додано)
 Для Bash (найчастіше)
 
 ```
@@ -48,7 +48,7 @@ source ~/.zshrc
 ```
 command -v addhosts
 ```
-3) Використання через PATH
+4) Використання через PATH
 
 ```
 sudo addhosts -hl <scopeList> -ip <10.129.31.100>
